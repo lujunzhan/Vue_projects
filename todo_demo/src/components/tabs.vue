@@ -7,7 +7,7 @@
       </span>
       <span class="clear" @click="clearAllCompleted">Clear Completed</span>
     </div>
-
+    <!-- 底部样式 -->
     <div class="bottom1"></div>
     <div class="bottom2"></div>
   </div>
@@ -56,11 +56,12 @@
     font-weight: 100;
     display: flex;
     justify-content: space-between;
-    padding:5px 0;
+    padding:8px 0;
     line-height: 30px;
     background-color: #fff;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
+    align-items: center;
   }
 
   .bottom1 {
@@ -88,6 +89,7 @@
   .tabs {
     padding: 0 10px;
     box-sizing: border-box;
+    -webkit-flex-wrap: nowrap;
   }
 
   .left,
@@ -108,6 +110,12 @@
     width: 200px;
     display: flex;
     justify-content: space-around;
+  }
+  /* 当屏幕发生变化时 */
+  @media screen and (max-width:500px) {
+    .helper{
+      /* display: block; */
+    }
   }
 
   .All,

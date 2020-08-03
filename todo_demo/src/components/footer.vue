@@ -16,7 +16,7 @@ export default {
 
 <style>
 #footer {
-    margin-top: 40px;
+    margin-top: 10px;
     text-align: center;
     /* color: #bfbfbf;
      */

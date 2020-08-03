@@ -45,6 +45,7 @@ export default {
 
 html,
 body {
+  font-size: 14px;
   width: 100%;
   height: 100%;
 }
@@ -91,5 +92,5 @@ body {
   background-size: cover;
   position: absolute;
 }
-</style>
 
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <section class="real-app" style="height: 477px;overflow-y: scroll;">
+  <section class="real-app">
     <input
       type="text"
       class="add-input"
@@ -83,9 +83,18 @@ export default {
 
 <style scoped>
 
+  @media screen and (max-width:500px) {
+    .real-app{
+      width: 82% !important;
+      height: 400px !important;
+    }
+  }
 .real-app {
-  width: 600px;
+  width: 55%;
   margin: 0 auto;
+  height: 477px;
+  overflow-y: scroll;
+  overflow-x:hidden;
   /* box-shadow: 0 0 5px #666; */
 }
 /* 当要出现滚动条时 进行隐藏 */
@@ -113,7 +122,7 @@ color:#D9D9D9;
   font-size: 24px;
   font-family: inherit;
   font-weight: inherit;
-  line-height: 1.4em;
+  line-height: 1.4rem;
   border: 0;
   outline: none;
   color: inherit;
