@@ -10,6 +10,7 @@ Vue.use(Router)
 export default new Router({
   mode:'history',
   //更改mode 可以去掉‘#’
+  base: '/vue/', // 加上这一行
   routes: [
     {
       path: '/',

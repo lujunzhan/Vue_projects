@@ -12,6 +12,7 @@
     <div>
       <Header></Header>
       <Todo></Todo>
+      <Time></Time>
       <Footer></Footer>
     </div>
 
@@ -23,6 +24,7 @@
 import Header from "./components/header.vue";
 import Footer from "./components/footer.vue";
 import Todo from "./components/todo.vue";
+import Time from "./components/Time.vue"
 
 export default {
   name: "App",
@@ -30,6 +32,7 @@ export default {
     Header,
     Footer,
     Todo,
+    Time
   },
   data() {
     return {};

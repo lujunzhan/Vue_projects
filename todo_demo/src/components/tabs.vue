@@ -111,6 +111,7 @@
     display: flex;
     justify-content: space-around;
   }
+  
   /* 当屏幕发生变化时 */
   @media screen and (max-width:500px) {
     .helper{
