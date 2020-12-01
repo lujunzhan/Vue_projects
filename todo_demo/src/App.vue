@@ -5,7 +5,7 @@
       <img src="./assets/bg.jpg" width="100%;" height="100%;" alt />
     </div>
 
-    <!-- 图层蒙版 背景虚化 -->
+    <!-- 图层蒙版 背景虚化 -->  
     <div id="cover"></div>
 
     <!-- 主要内容 -->
@@ -24,7 +24,7 @@
 import Header from "./components/header.vue";
 import Footer from "./components/footer.vue";
 import Todo from "./components/todo.vue";
-import Time from "./components/Time.vue"
+import Time from "./components/Time.vue";
 
 export default {
   name: "App",
